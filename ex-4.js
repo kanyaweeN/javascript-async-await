@@ -13,3 +13,6 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+let result = await getJohnProfile();
+console.log(result)
